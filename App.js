@@ -8,7 +8,7 @@ export default function App() {
 
   let task1 = realm.objects("Task")
 
-  console.log(`${task1[0].name}`)
+  console.log(JSON.stringify(task1))
 
 
   return (
